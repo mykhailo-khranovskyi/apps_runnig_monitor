@@ -28,17 +28,17 @@ def check_bots():
         if bot_script in result.stdout:
             running_bots.append(bot_script)
         else:
-            bot.send_message(chat_id=YOUR_CHAT_ID, text=f"Bot {bot_script} is down!")
+            bot.send_message(chat_id=YOUR_CHAT_ID, text=f"🍎Bot {bot_script} is down!")
             print(f"Bot {bot_script} is down!")
     if not running_bots:
-        bot.send_message(chat_id=YOUR_CHAT_ID, text="Not all bots are up and running!")
+        bot.send_message(chat_id=YOUR_CHAT_ID, text="🍎Not all bots are up and running!")
         print("Not all bots are up and running!")
 
 
 def send_daily_status():
     check_bots()
     running_bots = "\n".join(BOT_SCRIPTS)
-    status_message = f"Daily status check: Monitored bots/apps are:\n\n{running_bots}"
+    status_message = f"🍏Daily status check: Monitored bots/apps are:\n\n{running_bots}"
     bot.send_message(chat_id=YOUR_CHAT_ID, text=status_message)
 
 
