@@ -16,6 +16,7 @@ BOT_SCRIPTS = [
     'imperia_game_bot.py',
     'nintendo_prices_bot.py',
     'bot_analytics.py',
+    'baby_menu_en.py',
 ]
 
 
