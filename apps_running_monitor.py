@@ -1,7 +1,7 @@
-import subprocess
+import time
 import telebot
 import schedule
-import time
+import subprocess
 from config import TOKEN, YOUR_CHAT_ID
 
 # Initialize the bot
@@ -11,13 +11,14 @@ bot = telebot.TeleBot(TOKEN)
 BOT_SCRIPTS = [
     'telegram_bot.py',
     'fair_share_bot.py',
-#     '/root/promise_roulette/myenv/bin/python3 promise_roulette_app.py',
     'baby_menu_bot.py',
     'imperia_game_bot.py',
     'nintendo_prices_bot.py',
     'bot_analytics.py',
     'baby_menu_en.py',
-    'mkhranovskyi:app'
+    'mkhranovskyi:app',
+    'baby_menu_lp:app'
+#     '/root/promise_roulette/myenv/bin/python3 promise_roulette_app.py',
 ]
 
 
@@ -37,7 +38,7 @@ def check_bots():
 
 def send_daily_status():
     check_bots()
-    running_bots = "\n".join(BOT_SCRIPTS)
+    running_bots = "\n 🙊".join(BOT_SCRIPTS)
     status_message = f"🍏Daily status check: Monitored bots/apps are:\n\n{running_bots}"
     bot.send_message(chat_id=YOUR_CHAT_ID, text=status_message)
 
