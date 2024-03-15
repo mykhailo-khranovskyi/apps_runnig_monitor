@@ -13,12 +13,12 @@ BOT_SCRIPTS = [
     'fair_share_bot.py',
     'baby_menu_bot.py',
     'imperia_game_bot.py',
-    'nintendo_prices_bot.py',
     'bot_analytics.py',
     'baby_menu_en.py',
     'mkhranovskyi:app',
     'baby_menu_lp:app'
-#     '/root/promise_roulette/myenv/bin/python3 promise_roulette_app.py',
+    # 'nintendo_prices_bot.py',
+    # '/root/promise_roulette/myenv/bin/python3 promise_roulette_app.py',
 ]
 
 
