@@ -9,7 +9,7 @@ bot = telebot.TeleBot(TOKEN)
 
 # Paths to your bot scripts
 BOT_SCRIPTS = [
-    'telegram_bot.py',
+    'getbikesbot.py',
     'fair_share_bot.py',
     'baby_menu_bot.py',
     'imperia_game_bot.py',
