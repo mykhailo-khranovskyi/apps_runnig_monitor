@@ -16,7 +16,8 @@ BOT_SCRIPTS = [
     'bot_analytics.py',
     'baby_menu_en.py',
     'mkhranovskyi:app',
-    'baby_menu_lp:app'
+    'baby_menu_lp:app',
+    'cult_movies.py'
     # 'nintendo_prices_bot.py',
     # '/root/promise_roulette/myenv/bin/python3 promise_roulette_app.py',
 ]
