@@ -7,7 +7,7 @@ from config import TOKEN, YOUR_CHAT_ID
 # Initialize the bot
 bot = telebot.TeleBot(TOKEN)
 
-# Paths to your bot scripts
+# Paths to your bot scripts, apps, etc.
 BOT_SCRIPTS = [
     'getbikesbot.py',
     'fair_share_bot.py',
@@ -18,11 +18,10 @@ BOT_SCRIPTS = [
     'mkhranovskyi:app',
     'baby_menu_lp:app',
     'cult_movies.py'
-    # 'nintendo_prices_bot.py',
-    # '/root/promise_roulette/myenv/bin/python3 promise_roulette_app.py',
 ]
 
 
+# Function to check if the bots are running
 def check_bots():
     running_bots = []
     for bot_script in BOT_SCRIPTS:
@@ -37,6 +36,7 @@ def check_bots():
         print("Not all bots are up and running!")
 
 
+# Function to send daily status
 def send_daily_status():
     check_bots()
     running_bots = "\n 🙊".join(BOT_SCRIPTS)
