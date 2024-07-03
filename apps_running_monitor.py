@@ -13,7 +13,7 @@ BOT_SCRIPTS = [
     'fair_share_bot.py',
     'baby_menu_bot.py',
     'imperia_game_bot.py',
-    'bot_analytics.py',
+    #'bot_analytics.py',
     'baby_menu_en.py',
     'cult_movies.py',
     'desktopgames_rent_bot.py', # https://t.me/desktopgames_rent_bot
