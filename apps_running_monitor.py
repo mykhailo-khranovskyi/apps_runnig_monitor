@@ -17,7 +17,8 @@ BOT_SCRIPTS = [
     'baby_menu_en.py',
     'mkhranovskyi:app',
     'baby_menu_lp:app',
-    'cult_movies.py'
+    'cult_movies.py',
+    'desktopgames_rent_bot.py' # https://t.me/desktopgames_rent_bot
 ]
 
 
