@@ -19,7 +19,8 @@ BOT_SCRIPTS = [
     'desktopgames_rent_bot.py', # https://t.me/desktopgames_rent_bot
     'mkhranovskyi:app',
     'baby_menu_lp:app',
-    'book_images:app'
+    'book_images:app',
+    'book_shortener:app'
 ]
 
 
