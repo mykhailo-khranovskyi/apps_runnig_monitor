@@ -20,7 +20,9 @@ BOT_SCRIPTS = [
     'mkhranovskyi:app',
     'baby_menu_lp:app',
     'book_images:app',
-    'book_shortener:app'
+    'book_shortener:app',
+    'pochemu_app:app',
+    'get_comments.py'
 ]
 
 
