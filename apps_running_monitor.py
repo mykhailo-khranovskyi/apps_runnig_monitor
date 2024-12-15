@@ -23,7 +23,8 @@ BOT_SCRIPTS = [
     'book_shortener:app',
     'pochemu_app:app',
     'get_comments.py',
-    'get_word_cloud.py'
+    'get_word_cloud.py',
+    'twitter_poster.py'
 ]
 
 

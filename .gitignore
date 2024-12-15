@@ -160,3 +160,27 @@ cython_debug/
 #.idea/
 /todo
 /config.py
+.iml
+/project.xml
+/project.iml
+/workspace.xml
+/workspace.iml
+
+# PyCharm helper files
+/.idea
+/.iml
+/.ipr
+
+# Visual Studio Code
+#  See https://code.visualstudio.com/docs/editor/codebasics#_ignored-by-git-patterns
+#  See also https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
+#  For a more nuclear option (not recommended) you can uncomment the following to ignore the entire
+#  Visual Studio Code folder.
+/.vscode
+/Code\ User\ Settings
+/Code\ Workspaces
+/Local\ Settings
+/LocalSettings.json
+/LocalSettings.storage.json
+/LocalState.json
+/LocalState.storage.json
