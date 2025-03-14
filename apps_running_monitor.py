@@ -19,12 +19,13 @@ BOT_SCRIPTS = [
     'desktopgames_rent_bot.py', # https://t.me/desktopgames_rent_bot
     'mkhranovskyi:app',
     'baby_menu_lp:app',
-    'book_images:app',
-    'book_shortener:app',
+    # 'book_images:app', - RIP
+    # 'book_shortener:app', - RIP
     'pochemu_app:app',
     'get_comments.py',
     'get_word_cloud.py',
-    'twitter_poster.py'
+    'twitter_poster.py',
+    'bubutales:app'
 ]
 
 
