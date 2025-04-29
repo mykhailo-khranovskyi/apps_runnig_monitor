@@ -9,16 +9,16 @@ bot = telebot.TeleBot(TOKEN)
 
 # Paths to your bot scripts, apps, etc.
 BOT_SCRIPTS = [
-    'getbikesbot.py',
+    # 'getbikesbot.py',
     'fair_share_bot.py',
     'baby_menu_bot.py',
     'imperia_game_bot.py',
     #'bot_analytics.py',
     'baby_menu_en.py',
-    'cult_movies.py',
-    'desktopgames_rent_bot.py', # https://t.me/desktopgames_rent_bot
+    #'cult_movies.py',
+    #'desktopgames_rent_bot.py', # https://t.me/desktopgames_rent_bot
     'mkhranovskyi:app',
-    'baby_menu_lp:app',
+    #'baby_menu_lp:app',
     # 'book_images:app', - RIP
     # 'book_shortener:app', - RIP
     'pochemu_app:app',
