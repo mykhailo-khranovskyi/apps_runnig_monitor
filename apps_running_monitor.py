@@ -24,7 +24,8 @@ BOT_SCRIPTS = [
     'pochemu_app:app',
     'get_comments.py',
     'get_word_cloud.py',
-    'bubutales:app'
+    'bubutales:app',
+    'costume_app:app'
 ]
 
 
