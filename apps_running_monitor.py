@@ -21,8 +21,8 @@ BOT_SCRIPTS = [
     #'baby_menu_lp:app',
     # 'book_images:app', - RIP
     # 'book_shortener:app', - RIP
-    'pochemu_app:app',
-    'get_comments.py',
+    # 'pochemu_app:app',
+    # 'get_comments.py',
     'get_word_cloud.py',
     'bubutales:app',
     'costume_app:app'
