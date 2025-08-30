@@ -25,7 +25,7 @@ BOT_SCRIPTS = [
     # 'get_comments.py',
     # 'get_word_cloud.py',
     'bubutales:app',
-    'costume_app:app'
+    # 'costume_app:app' moved to systemctl way
 ]
 
 

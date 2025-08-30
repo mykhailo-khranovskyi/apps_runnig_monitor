@@ -5,4 +5,10 @@
 # python3 -m venv venv
 # source venv/bin/activate
 # pip3 install pyTelegramBotAPI, schedule
-# nohup python3 apps_running_monitor.py & # Run in background
+
+
+# run app with python
+nohup python3 apps_running_monitor.py &
+pkill -f "python3 apps_running_monitor.py"
+
+ps aux | grep "python3 apps_running_monitor.py"
